@@ -1,0 +1,19 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+
+	img {
+		max-width: 8rem;
+	}
+
+	.btn-header {
+		color: $pink;
+		border: 1px solid $pink;
+		background-color: transparent;
+		padding: 0.35rem 1rem;
+		border-radius: 50px;
+		text-transform: capitalize;
+	}
+}

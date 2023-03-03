@@ -17,4 +17,22 @@ h3 {
 img {
   max-width: 100%; }
 
+.btn {
+  border: none; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0; }
+  .header img {
+    max-width: 8rem; }
+  .header .btn-header {
+    color: #ff52bf;
+    border: 1px solid #ff52bf;
+    background-color: transparent;
+    padding: 0.35rem 1rem;
+    border-radius: 50px;
+    text-transform: capitalize; }
+
 /*# sourceMappingURL=styles.css.map */
