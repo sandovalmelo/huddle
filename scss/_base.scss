@@ -4,3 +4,16 @@ $light-pink: hsl(321, 100%, 78%);
 $light-red: hsl(0, 100%, 63%);
 $dark-cyan: hsl(192, 100%, 9%);
 $pale-blue: hsl(207, 100%, 98%);
+
+$body-font: "Open Sans", sans-serif;
+$headings-font: "Poppins", sans-serif;
+
+body {
+	font-family: $body-font;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $headings-font;
+}
