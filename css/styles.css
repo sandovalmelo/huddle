@@ -74,4 +74,12 @@ p {
     .services .service-title {
       margin-bottom: 1.5rem; }
 
+.get-started {
+  text-align: center; }
+  .get-started .call-to-action {
+    max-width: 20rem;
+    margin: 0 auto; }
+  .get-started .btn {
+    margin: 2rem; }
+
 /*# sourceMappingURL=styles.css.map */
