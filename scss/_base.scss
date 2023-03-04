@@ -19,7 +19,6 @@ $headings-font: "Poppins", sans-serif;
 
 body {
 	font-family: $body-font;
-	padding: 2rem;
 }
 
 h1,
@@ -31,6 +30,7 @@ h3 {
 
 img {
 	max-width: 100%;
+	display: block;
 }
 
 .btn {

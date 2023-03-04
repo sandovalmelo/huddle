@@ -1,0 +1,16 @@
+.services {
+	text-align: center;
+	padding: 2rem 0;
+
+	.service {
+		padding: 4rem 2rem;
+
+		&-image {
+			margin-bottom: 4rem;
+		}
+
+		&-title {
+			margin-bottom: 1.5rem;
+		}
+	}
+}
