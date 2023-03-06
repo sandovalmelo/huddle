@@ -54,7 +54,9 @@ p {
   .intro-text {
     margin: 1.5rem 0; }
   .intro-img {
-    margin: 4rem 0; }
+    margin: 4rem; }
+    .intro-img img {
+      margin: 0 auto; }
 
 .numbers {
   display: flex;
@@ -112,10 +114,11 @@ p {
 
 .bg-footer {
   background-image: url("./../images/bg-footer-top-mobile.svg");
-  padding: 4rem 0;
+  padding: 8rem 0;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom center; }
+  background-position: bottom center;
+  display: block; }
 
 .footer {
   background-color: #00252e;
