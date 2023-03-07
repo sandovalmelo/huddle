@@ -55,6 +55,12 @@
 
 @media (min-width: 900px) {
 	.services {
+		.service {
+			&-image {
+				margin-bottom: 0;
+			}
+		}
+
 		.grow-box {
 			max-width: 60rem;
 			margin: 0 auto;
@@ -64,12 +70,6 @@
 			flex-direction: row-reverse;
 			gap: 4rem;
 			text-align: left;
-		}
-
-		.service {
-			&-image {
-				margin-bottom: 0;
-			}
 		}
 
 		.grow {
@@ -82,6 +82,16 @@
 
 		.grow-bg-bottom {
 			background-image: url("./../images/bg-section-bottom-desktop-1.svg");
+		}
+
+		.conversation-box {
+			max-width: 60rem;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 4rem;
+			text-align: left;
 		}
 	}
 }

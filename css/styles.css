@@ -116,6 +116,8 @@ p {
     background-size: cover; }
 
 @media (min-width: 900px) {
+  .services .service-image {
+    margin-bottom: 0; }
   .services .grow-box {
     max-width: 60rem;
     margin: 0 auto;
@@ -125,14 +127,20 @@ p {
     flex-direction: row-reverse;
     gap: 4rem;
     text-align: left; }
-  .services .service-image {
-    margin-bottom: 0; }
   .services .grow {
     padding: 4rem; }
   .services .grow-bg-top {
     background-image: url("./../images/bg-section-top-desktop-1.svg"); }
   .services .grow-bg-bottom {
-    background-image: url("./../images/bg-section-bottom-desktop-1.svg"); } }
+    background-image: url("./../images/bg-section-bottom-desktop-1.svg"); }
+  .services .conversation-box {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    text-align: left; } }
 .get-started {
   text-align: center; }
   .get-started .call-to-action {
