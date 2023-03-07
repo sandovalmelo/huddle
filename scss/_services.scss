@@ -17,7 +17,6 @@
 	.grow-bg-top {
 		padding: 4rem 0;
 		background-image: url("./../images/bg-section-top-mobile-1.svg");
-		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -29,7 +28,6 @@
 	.grow-bg-bottom {
 		padding: 4rem 0;
 		background-image: url("./../images/bg-section-bottom-mobile-1.svg");
-		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -52,5 +50,38 @@
 		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+}
+
+@media (min-width: 900px) {
+	.services {
+		.grow-box {
+			max-width: 60rem;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: row-reverse;
+			gap: 4rem;
+			text-align: left;
+		}
+
+		.service {
+			&-image {
+				margin-bottom: 0;
+			}
+		}
+
+		.grow {
+			padding: 4rem;
+		}
+
+		.grow-bg-top {
+			background-image: url("./../images/bg-section-top-desktop-1.svg");
+		}
+
+		.grow-bg-bottom {
+			background-image: url("./../images/bg-section-bottom-desktop-1.svg");
+		}
 	}
 }
