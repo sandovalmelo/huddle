@@ -130,8 +130,10 @@ p {
   .services .grow {
     padding: 4rem; }
   .services .grow-bg-top {
+    padding: 6rem 0;
     background-image: url("./../images/bg-section-top-desktop-1.svg"); }
   .services .grow-bg-bottom {
+    padding: 6rem 0;
     background-image: url("./../images/bg-section-bottom-desktop-1.svg"); }
   .services .conversation-box {
     max-width: 60rem;
@@ -151,8 +153,10 @@ p {
     gap: 4rem;
     text-align: left; }
   .services .users-bg-top {
+    padding: 6rem 0;
     background-image: url("./../images/bg-section-top-desktop-2.svg"); }
   .services .users-bg-bottom {
+    padding: 6rem 0;
     background-image: url("./../images/bg-section-bottom-desktop-2.svg"); } }
 .get-started {
   text-align: center; }
