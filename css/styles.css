@@ -140,7 +140,20 @@ p {
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    text-align: left; } }
+    text-align: left; }
+  .services .users-box {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 4rem;
+    text-align: left; }
+  .services .users-bg-top {
+    background-image: url("./../images/bg-section-top-desktop-2.svg"); }
+  .services .users-bg-bottom {
+    background-image: url("./../images/bg-section-bottom-desktop-2.svg"); } }
 .get-started {
   text-align: center; }
   .get-started .call-to-action {
