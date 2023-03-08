@@ -95,7 +95,8 @@ p {
     max-width: 30px; }
   .numbers-title {
     font-size: 3rem;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; }
 
 @media (min-width: 900px) {
   .numbers {
