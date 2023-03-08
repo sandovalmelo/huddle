@@ -106,7 +106,7 @@ p {
     padding: 4rem 0;
     background-image: url("./../images/bg-section-bottom-mobile-1.svg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: contain; }
   .services .users-bg-top {
     padding: 4rem 0;
     background-image: url("./../images/bg-section-top-mobile-2.svg");
@@ -120,45 +120,48 @@ p {
     background-image: url("./../images/bg-section-bottom-mobile-2.svg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: contain; }
 
 @media (min-width: 900px) {
-  .services .service-image {
-    margin-bottom: 0; }
-  .services .grow-box {
-    max-width: 60rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    gap: 4rem;
+  .services .service {
     text-align: left; }
-  .services .grow {
-    padding: 4rem; }
+    .services .service-image {
+      margin-bottom: 0; }
+  .services .grow-container {
+    max-width: 70rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    place-items: center; }
+    .services .grow-container .service-image {
+      grid-area: 1 / 2 / 2 / -1; }
+    .services .grow-container .service-info {
+      grid-column: 1 / 2 / 2 / 1; }
   .services .grow-bg-top {
     padding: 6rem 0;
     background-image: url("./../images/bg-section-top-desktop-1.svg"); }
   .services .grow-bg-bottom {
     padding: 6rem 0;
     background-image: url("./../images/bg-section-bottom-desktop-1.svg"); }
-  .services .conversation-box {
-    max-width: 60rem;
+  .services .conversation-container {
+    max-width: 70rem;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    text-align: left; }
-  .services .users-box {
-    max-width: 60rem;
+    place-items: center; }
+  .services .users-container {
+    max-width: 70rem;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    text-align: left; }
+    place-items: center; }
+    .services .users-container .service-image {
+      grid-area: 1 / 2 / 2 / -1; }
+    .services .users-container .service-info {
+      grid-column: 1 / 2 / 2 / 1; }
   .services .users-bg-top {
     padding: 6rem 0;
     background-image: url("./../images/bg-section-top-desktop-2.svg"); }

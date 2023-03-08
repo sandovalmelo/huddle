@@ -29,7 +29,7 @@
 		padding: 4rem 0;
 		background-image: url("./../images/bg-section-bottom-mobile-1.svg");
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 
 	.users-bg-top {
@@ -49,31 +49,29 @@
 		background-image: url("./../images/bg-section-bottom-mobile-2.svg");
 		background-position: top;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 }
 
 @media (min-width: 900px) {
 	.services {
 		.service {
+			text-align: left;
 			&-image {
 				margin-bottom: 0;
 			}
 		}
 
-		.grow-box {
-			max-width: 60rem;
-			margin: 0 auto;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: row-reverse;
-			gap: 4rem;
-			text-align: left;
-		}
+		.grow-container {
+			@include service-container;
 
-		.grow {
-			padding: 4rem;
+			.service-image {
+				grid-area: 1 / 2 / 2 / -1;
+			}
+
+			.service-info {
+				grid-column: 1 / 2 / 2 / 1;
+			}
 		}
 
 		.grow-bg-top {
@@ -86,25 +84,20 @@
 			background-image: url("./../images/bg-section-bottom-desktop-1.svg");
 		}
 
-		.conversation-box {
-			max-width: 60rem;
-			margin: 0 auto;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			gap: 4rem;
-			text-align: left;
+		.conversation-container {
+			@include service-container;
 		}
 
-		.users-box {
-			max-width: 60rem;
-			margin: 0 auto;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: row-reverse;
-			gap: 4rem;
-			text-align: left;
+		.users-container {
+			@include service-container;
+
+			.service-image {
+				grid-area: 1 / 2 / 2 / -1;
+			}
+
+			.service-info {
+				grid-column: 1 / 2 / 2 / 1;
+			}
 		}
 
 		.users-bg-top {

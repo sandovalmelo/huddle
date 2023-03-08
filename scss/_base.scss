@@ -51,3 +51,12 @@ p {
 	color: $dark-cyan;
 	font-size: 0.9rem;
 }
+
+@mixin service-container {
+	max-width: 70rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4rem;
+	place-items: center;
+}
