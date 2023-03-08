@@ -9,10 +9,18 @@
 	}
 
 	&-img {
-		margin: 4rem 0;
+		margin: 4rem auto;
 
 		img {
 			margin: 0 auto;
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	.intro {
+		&-img {
+			max-width: 60rem;
 		}
 	}
 }
