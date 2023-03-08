@@ -49,7 +49,7 @@ p {
 
 @media (min-width: 900px) {
   .header {
-    padding: 2rem 4rem; } }
+    padding: 3rem 4rem 2rem; } }
 .intro {
   text-align: center;
   margin-top: 5rem;
@@ -63,6 +63,8 @@ p {
       margin: 0 auto; }
 
 @media (min-width: 900px) {
+  .intro-title {
+    font-size: 1.75rem; }
   .intro-img {
     max-width: 60rem; } }
 .numbers {
@@ -138,6 +140,8 @@ p {
   .services .service {
     text-align: left;
     padding: 4rem 0; }
+    .services .service-title {
+      font-size: 1.75rem; }
     .services .service-image {
       margin-bottom: 0; }
   .services .grow-container {
@@ -185,6 +189,10 @@ p {
   .get-started .btn {
     margin: 2rem; }
 
+@media (min-width: 900px) {
+  .get-started .call-to-action {
+    max-width: 100%;
+    font-size: 1.75rem; } }
 .bg-footer {
   background-image: url("./../images/bg-footer-top-mobile.svg");
   padding: 8rem 0;
