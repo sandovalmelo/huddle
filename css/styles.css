@@ -18,6 +18,9 @@ img {
   max-width: 100%;
   display: block; }
 
+svg {
+  fill: #fff; }
+
 .btn {
   border: none;
   text-transform: capitalize;
@@ -263,8 +266,13 @@ p {
       .footer .contact-phone p, .footer .contact-email p {
         margin-left: 1rem; }
   .footer .social-media {
+    margin-top: 3rem;
     display: flex;
     gap: 1rem; }
+    .footer .social-media a img,
+    .footer .social-media a svg {
+      width: 28px;
+      height: 28px; }
 
 @media (min-width: 900px) {
   .bg-footer {
@@ -294,10 +302,16 @@ p {
       .footer .newsletter form input {
         flex-basis: 370px; }
   .footer .social-media {
-    margin-top: 3rem;
     gap: 1.5rem; }
-    .footer .social-media img {
-      max-width: 35px;
-      width: 100%; } }
+    .footer .social-media a img,
+    .footer .social-media a svg {
+      width: 32px;
+      height: 32px; }
+    .footer .social-media .facebook-link svg:hover {
+      fill: #4267b2; }
+    .footer .social-media .instagram-link svg:hover {
+      fill: #c13584; }
+    .footer .social-media .twitter-link svg:hover {
+      fill: #1da1f2; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,9 @@ $light-red: hsl(0, 100%, 63%);
 $dark-cyan: hsl(192, 100%, 9%);
 $pale-blue: hsl(207, 100%, 98%);
 $white: #fff;
+$facebook-blue: #4267b2;
+$instagram-purple: #c13584;
+$twitter-blue: #1da1f2;
 
 $body-font: "Open Sans", sans-serif;
 $headings-font: "Poppins", sans-serif;
@@ -31,6 +34,10 @@ h3 {
 img {
 	max-width: 100%;
 	display: block;
+}
+
+svg {
+	fill: $white;
 }
 
 .btn {

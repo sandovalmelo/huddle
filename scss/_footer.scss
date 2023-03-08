@@ -86,8 +86,17 @@
 	}
 
 	.social-media {
+		margin-top: 3rem;
 		display: flex;
 		gap: 1rem;
+
+		a {
+			img,
+			svg {
+				width: 28px;
+				height: 28px;
+			}
+		}
 	}
 }
 
@@ -135,12 +144,38 @@
 		}
 
 		.social-media {
-			margin-top: 3rem;
 			gap: 1.5rem;
 
-			img {
-				max-width: 35px;
-				width: 100%;
+			a {
+				img,
+				svg {
+					width: 32px;
+					height: 32px;
+				}
+			}
+
+			.facebook-link {
+				svg {
+					&:hover {
+						fill: $facebook-blue;
+					}
+				}
+			}
+
+			.instagram-link {
+				svg {
+					&:hover {
+						fill: $instagram-purple;
+					}
+				}
+			}
+
+			.twitter-link {
+				svg {
+					&:hover {
+						fill: $twitter-blue;
+					}
+				}
 			}
 		}
 	}
