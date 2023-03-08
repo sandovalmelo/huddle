@@ -47,14 +47,18 @@ p {
     background-color: transparent;
     padding: 0.35rem 1rem; }
 
+@media (min-width: 900px) {
+  .header {
+    padding: 2rem 4rem; } }
 .intro {
   text-align: center;
   margin-top: 5rem;
   padding: 0 2rem; }
   .intro-text {
-    margin: 1.5rem 0; }
+    margin: 1.5rem auto;
+    max-width: 26rem; }
   .intro-img {
-    margin: 4rem; }
+    margin: 4rem 0; }
     .intro-img img {
       margin: 0 auto; }
 
