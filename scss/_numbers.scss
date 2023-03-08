@@ -16,10 +16,10 @@
 
 @media (min-width: 900px) {
 	.numbers {
+		max-width: 70rem;
+		margin: 0 auto;
 		flex-direction: row;
-		align-content: space-around;
-		justify-content: center;
-		gap: 10rem;
+		justify-content: space-evenly;
 
 		&-title {
 			font-size: 4rem;
