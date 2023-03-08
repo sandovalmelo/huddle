@@ -29,6 +29,11 @@ img {
   color: #fff;
   font-weight: 600;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3); }
+  @media (min-width: 900px) {
+    .btn-primary {
+      cursor: pointer; }
+      .btn-primary:hover {
+        background-color: #ff8fd8; } }
 
 p {
   color: #00252e;
@@ -39,6 +44,9 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 2rem; }
+  @media (min-width: 900px) {
+    .header {
+      padding: 3rem 4rem 2rem; } }
   .header img {
     max-width: 8rem; }
   .header .btn-header {
@@ -46,10 +54,13 @@ p {
     border: 1px solid #ff52bf;
     background-color: transparent;
     padding: 0.35rem 1rem; }
+    @media (min-width: 900px) {
+      .header .btn-header {
+        cursor: pointer; }
+        .header .btn-header:hover {
+          color: #ff8fd8;
+          border-color: #ff8fd8; } }
 
-@media (min-width: 900px) {
-  .header {
-    padding: 3rem 4rem 2rem; } }
 .intro {
   text-align: center;
   margin-top: 5rem;
@@ -233,6 +244,12 @@ p {
     border-radius: 4px;
     margin-left: auto;
     display: block; }
+    @media (min-width: 900px) {
+      .footer .newsletter .form-btn {
+        cursor: pointer;
+        width: 12rem; }
+        .footer .newsletter .form-btn:hover {
+          background-color: #ff8fd8; } }
   .footer .contact {
     padding: 4rem 0 2rem; }
     .footer .contact .footer-logo {
@@ -276,8 +293,6 @@ p {
       gap: 2rem; }
       .footer .newsletter form input {
         flex-basis: 370px; }
-      .footer .newsletter form .form-btn {
-        width: 12rem; }
   .footer .social-media {
     margin-top: 3rem;
     gap: 1.5rem; }

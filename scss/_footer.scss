@@ -50,6 +50,15 @@
 			border-radius: 4px;
 			margin-left: auto;
 			display: block;
+
+			@media (min-width: 900px) {
+				cursor: pointer;
+				width: 12rem;
+
+				&:hover {
+					background-color: $light-pink;
+				}
+			}
 		}
 	}
 
@@ -121,10 +130,6 @@
 
 				input {
 					flex-basis: 370px;
-				}
-
-				.form-btn {
-					width: 12rem;
 				}
 			}
 		}
