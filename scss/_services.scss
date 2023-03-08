@@ -15,7 +15,7 @@
 	}
 
 	.grow-bg-top {
-		padding: 4rem 0;
+		@include bg-padding;
 		background-image: url("./../images/bg-section-top-mobile-1.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -26,14 +26,14 @@
 	}
 
 	.grow-bg-bottom {
-		padding: 4rem 0;
+		@include bg-padding;
 		background-image: url("./../images/bg-section-bottom-mobile-1.svg");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 
 	.users-bg-top {
-		padding: 4rem 0;
+		@include bg-padding;
 		background-image: url("./../images/bg-section-top-mobile-2.svg");
 		background-position: bottom;
 		background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 	}
 
 	.users-bg-bottom {
-		padding: 4rem 0;
+		@include bg-padding;
 		background-image: url("./../images/bg-section-bottom-mobile-2.svg");
 		background-position: top;
 		background-repeat: no-repeat;
@@ -57,6 +57,8 @@
 	.services {
 		.service {
 			text-align: left;
+			padding: 4rem 0;
+
 			&-image {
 				margin-bottom: 0;
 			}
@@ -75,12 +77,10 @@
 		}
 
 		.grow-bg-top {
-			padding: 6rem 0;
 			background-image: url("./../images/bg-section-top-desktop-1.svg");
 		}
 
 		.grow-bg-bottom {
-			padding: 6rem 0;
 			background-image: url("./../images/bg-section-bottom-desktop-1.svg");
 		}
 
@@ -101,12 +101,10 @@
 		}
 
 		.users-bg-top {
-			padding: 6rem 0;
 			background-image: url("./../images/bg-section-top-desktop-2.svg");
 		}
 
 		.users-bg-bottom {
-			padding: 6rem 0;
 			background-image: url("./../images/bg-section-bottom-desktop-2.svg");
 		}
 	}
